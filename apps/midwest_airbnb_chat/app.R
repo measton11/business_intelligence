@@ -19,6 +19,4 @@ qc = querychat::querychat(
 
 qc$app_obj()
 
-file.exists(".Renviron")
 
-usethis::edit_r_environ(scope = "project")
